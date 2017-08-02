@@ -1,0 +1,38 @@
+Redstone SSD driver and utilities.
+-(c)- medvedx64 . 2 0 1 5
+
+/lib/ssd.lua - Programming API
+/bin/ssdget.lua [dst_file]
+ - download a file from ssd
+/bin/ssdput.lua [src_file]
+ - upload a file to ssd
+* if no file specified, stdin/stdout
+ will be used *
+/bin/ssdpark.lua - rewind disk's head
+ to first sector
+
+- Building a disk -
+
+1. Build a horizontal frame and
+place redstone block on the corner
+as described below, to mark
+the start point:
+
++++++++++
+#       +
++       +
++       +
++       +
++       +
++++++++++
+
+# - redstone block
++ - any solid block
+
+Ensure to have at least 8 blocks
+of free space under all the frame.
+
+2. Place your robot at the start
+point; equip it with a good pickaxe
+and enough amount of redstone blocks.
+
